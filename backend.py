@@ -12,7 +12,7 @@ def get_system_usage():
     try:
         # Fetch system usage stats (e.g., using psutil)
         usage_data = {
-            'cpu_percent': 55.0,  # Example data
+            'cpu_percent': 65.0,  # Example data
             'memory_percent': 75.0  # Example data
         }
         return jsonify(usage_data)
